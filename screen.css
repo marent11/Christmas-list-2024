@@ -6,9 +6,8 @@
 
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background: url('https://images.unsplash.com/photo-1608216740316-d6eab8d5c4b8') no-repeat center center fixed;
-    background-size: cover;
-    color: rgb(76, 207, 109);
+    background: #006400;  /* Christmas green */
+    color: white;
     text-align: center;
     padding: 2em;
 }
