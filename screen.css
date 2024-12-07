@@ -1,4 +1,68 @@
-/* Add screen styles below */
-a.active {
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: url('https://images.unsplash.com/photo-1608216740316-d6eab8d5c4b8') no-repeat center center fixed;
+    background-size: cover;
+    color: white;
+    text-align: center;
+    padding: 2em;
+}
+
+header {
+    background: rgba(0, 0, 0, 0.6);
+    padding: 1em;
+    border-radius: 10px;
+    margin-bottom: 2em;
+}
+
+h1 {
+    font-size: 3em;
+    color: #ffdf00;
+    text-shadow: 2px 2px 5px #ff0000;
+}
+
+.wishlist {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 2em;
+}
+
+.item {
+    background: rgba(0, 0, 0, 0.7);
+    padding: 2em;
+    border-radius: 15px;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.5);
+}
+
+h2 {
+    font-size: 1.8em;
+    color: #ff4d4d;
+}
+
+button {
+    margin: 0.5em;
+    padding: 0.7em 1.5em;
+    font-size: 1em;
     font-weight: bold;
+    color: white;
+    background: #ff6347;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+button:hover {
+    background: #ff0000;
+}
+
+footer {
+    margin-top: 2em;
+    font-size: 1.2em;
+    color: #ffdf00;
 }
